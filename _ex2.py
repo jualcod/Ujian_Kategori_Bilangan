@@ -4,7 +4,9 @@ num = int(num1)
 
 # Menentukan Bulat
 def Bul(num1,num1rd):
-    if num1/num1rd == 1:
+    if num1 == 0:
+        return('bulat')
+    elif num1/num1rd == 1:
         return('bulat')
     elif num1/num1rd != 1:
         return('pecahan')
